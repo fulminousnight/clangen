@@ -12,5 +12,12 @@
                 "values": ["romance"],
                 "amount": 5
             }]
+    },
+    {
+        "id": "gen_romance_med_pos2",
+        "strings": [
+			"m_c thinks {PRONOUN/m_c/subject} and r_c were fated to meet.",
+            "m_c is immediately enamoured by r_c."
+        ]
     }
 ]

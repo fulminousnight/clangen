@@ -2,7 +2,22 @@
     {
         "id": "gen_romance_low_pos1",
         "strings": [
-			"m_c immediately noticed how r_c's fur shines in the light."
+			"m_c immediately noticed how r_c's fur shines in the light.",
+            "m_c thinks r_c's eyes are beautiful."
         ]
+    },
+        {
+        "id": "gen_romance_low_pos_2",
+        "strings": [
+			"m_c feels a spark of connection between {PRONOUN/m_c/object} and r_c."
+        ],
+        "relationship_changes": [
+            {
+                "cats_from": ["r_c"],
+                "cats_to": ["m_c"],
+                "mutual": false,
+                "values": ["romance"],
+                "amount": 5
+            }]
     }
 ]

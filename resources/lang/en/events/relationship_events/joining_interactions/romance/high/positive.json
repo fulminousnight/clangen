@@ -12,5 +12,25 @@
                 "values": ["romance"],
                 "amount": 15
             }]
+    },
+    {
+        "id": "gen_romance_high_pos_loveatfirstsight",
+        "strings": [
+			"m_c thinks r_c is the most beautiful cat that has ever set foot in camp.",
+            "When m_c first meets r_c time seems to slow down.",
+            "m_c thinks r_c looks as delicious as the finest piece of fresh-kill."
+        ]
+    },
+    {
+        "id": "gen_romance_high_pos_hunkyrogue",
+        "strings": [
+            "m_c is enthralled by r_c and wants to know all their roguish tales.",
+            "m_c is blushing over r_c's sleek pelt and rippling muscles."
+        ],
+        "r_c": {
+            "past_status": [
+                "rogue"
+            ]
+        }
     }
 ]
