@@ -2,8 +2,12 @@
     {
         "id": "gen_trust_high_pos1",
         "strings": [
-			"r_c shut down rumors about m_c before they could spread, and m_c was grateful."
+			"r_c shut down rumors about m_c before they could spread, and m_c was grateful.",
+            "r_c makes an effort to understand what drew m_c to join c_n."
         ],
+        "r_c": {
+            "status": ["-newborn", "-kitten"]
+        },
         "relationship_changes": [
             {
                 "cats_from": ["r_c"],
@@ -12,5 +16,32 @@
                 "values": ["trust"],
                 "amount": 5
             }]
+    },
+    {
+        "id": "gen_trust_high_pos_kitten_r_c",
+        "strings": [
+			"m_c is thrilled when r_c immediately bounds up to {PRONOUN/m_c/object} to ask {PRONOUN/m_c/object} about their life."
+        ],
+        "r_c": {
+            "status": ["kitten"]
+        },
+        "relationship_changes": [
+            {
+                "cats_from": ["r_c"],
+                "cats_to": ["m_c"],
+                "mutual": false,
+                "values": ["trust"],
+                "amount": 5
+            }]
+    },
+    {
+        "id": "gen_trust_high_pos1",
+        "strings": [
+			"r_c helps m_c build their nest.",
+            "r_c has m_c's back when others are skeptical of the decision to let m_c join the Clan."
+        ],
+        "r_c": {
+            "status": ["-newborn", "-kitten"]
+        }
     }
 ]

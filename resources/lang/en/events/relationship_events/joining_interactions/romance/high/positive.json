@@ -2,7 +2,7 @@
     {
         "id": "gen_romance_high_pos1",
         "strings": [
-			"m_c and r_c seemed to immediately be enamored with each other."
+			"m_c and r_c seemed to be immediately enamored with each other."
         ],
         "relationship_changes": [
             {
@@ -16,16 +16,16 @@
     {
         "id": "gen_romance_high_pos_loveatfirstsight",
         "strings": [
-			"m_c thinks r_c is the most beautiful cat that has ever set foot in camp.",
+			"r_c thinks m_c is the most beautiful cat that has ever set foot in camp.",
             "When m_c first meets r_c time seems to slow down.",
-            "m_c thinks r_c looks as delicious as the finest piece of fresh-kill."
+            "r_c thinks m_c looks as delicious as the finest piece of fresh-kill."
         ]
     },
     {
         "id": "gen_romance_high_pos_hunkyrogue",
         "strings": [
-            "m_c is enthralled by r_c and wants to know all their roguish tales.",
-            "m_c is blushing over r_c's sleek pelt and rippling muscles."
+            "r_c is enthralled by m_c and wants to know all their roguish tales.",
+            "r_c is blushing over m_c's sleek pelt and rippling muscles."
         ],
         "r_c": {
             "past_status": [

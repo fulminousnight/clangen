@@ -2,7 +2,7 @@
     {
         "id": "gen_romance_med_pos1",
         "strings": [
-			"m_c and r_c kept stealing looks at each other."
+			"m_c and r_c kept stealing glances at each other."
         ],
         "relationship_changes": [
             {
@@ -17,7 +17,7 @@
         "id": "gen_romance_med_pos2",
         "strings": [
 			"m_c thinks {PRONOUN/m_c/subject} and r_c were fated to meet.",
-            "m_c is immediately enamoured by r_c."
+            "m_c is falling head over paws for r_c."
         ]
     }
 ]
