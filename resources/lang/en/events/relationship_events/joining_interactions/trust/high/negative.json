@@ -2,8 +2,86 @@
     {
         "id": "gen_trust_high_neg1",
         "strings": [
-            "Usavory rumors spread about m_c's origins. {PRONOUN/m_c/subject/CAP} {VERB/m_c/discover/discovers} r_c was behind them."
+            "r_c spread unsavory rumors about m_c's origins.",
+            "r_c vocally insisted against m_c joining the Clan."
         ],
+        "r_c": {
+            "status": ["-newborn", "-kitten"]
+        },
+        "relationship_changes": [
+            {
+                "cats_from": ["r_c"],
+                "cats_to": ["m_c"],
+                "mutual": false,
+                "values": ["trust"],
+                "amount": -10
+            }]
+    },
+    {
+        "id": "gen_trust_high_neg1_kitten_r_c",
+        "strings": [
+            "r_c thought that m_c looked scary and smelled strange."
+        ],
+        "r_c": {
+            "status": ["kitten"]
+        },
+        "relationship_changes": [
+            {
+                "cats_from": ["r_c"],
+                "cats_to": ["m_c"],
+                "mutual": false,
+                "values": ["trust"],
+                "amount": -10
+            }]
+    },
+    {
+        "id": "gen_trust_high_neg_rogue",
+        "strings": [
+            "r_c accused m_c of joining the Clan to betray Clan secrets to outsiders."
+        ],
+        "r_c": {
+            "past_status": [
+                "rogue"
+            ]
+        },
+        "relationship_changes": [
+            {
+                "cats_from": ["r_c"],
+                "cats_to": ["m_c"],
+                "mutual": false,
+                "values": ["trust"],
+                "amount": -10
+            }]
+    },
+    {
+        "id": "gen_trust_high_neg_otherclancat",
+        "strings": [
+            "r_c accused m_c of joining the c_n to spill their secrets to the Clan r_c came from."
+        ],
+        "r_c": {
+            "past_status": [
+                "clancat"
+            ]
+        },
+        "relationship_changes": [
+            {
+                "cats_from": ["r_c"],
+                "cats_to": ["m_c"],
+                "mutual": false,
+                "values": ["trust"],
+                "amount": -10
+            }]
+    },
+    {
+        "id": "gen_trust_high_neg_kittypet",
+        "strings": [
+            "r_c insisted they could never trust a kittypet like m_c to have {PRONOUN/r_c/poss} back in battle.."
+        ],
+        "r_c": {
+            "past_status": [
+                "clancat"
+            ]
+        },
         "relationship_changes": [
             {
                 "cats_from": ["r_c"],

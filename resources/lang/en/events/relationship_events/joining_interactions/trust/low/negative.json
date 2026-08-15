@@ -2,7 +2,9 @@
     {
         "id": "gen_trust_low_neg1",
         "strings": [
-			"r_c didn't make a good first impression, and m_c felt doubtful about {PRONOUN/r_c/object}."
+			"r_c didn't make a good first impression, and m_c felt doubtful about {PRONOUN/r_c/object}.",
+            "m_c couldn't shake their first impression of r_c's shiftiness.",
+            "m_c knows r_c questioned the decision to allow m_c to join the Clan."
         ]
     }
 ]

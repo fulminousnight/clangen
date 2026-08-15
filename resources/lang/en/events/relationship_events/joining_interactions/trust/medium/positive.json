@@ -4,5 +4,32 @@
         "strings": [
 			"r_c made sure m_c was personally introduced to everyone in the Clan."
         ]
+    },
+        {
+        "id": "gen_trust_med_pos_deputy",
+        "strings": [
+			"r_c advocated strongly for m_c to join the Clan."
+        ],
+       "r_c": {
+           "status": ["deputy"]
+       }
+    },
+    {
+        "id": "gen_trust_med_pos_meddie",
+        "strings": [
+			"r_c made sure m_c knew to come for {PRONOUN/r_c/object} if {PRONOUN/m_c/subject} were injured or ill."
+        ],
+       "r_c": {
+           "status": ["medicine cat", "medicine cat apprentice"]
+       }
+    },
+    {
+        "id": "gen_trust_med_pos_leader",
+        "strings": [
+			"r_c told m_c to let {PRONOUN/m_c/object} know if."
+        ],
+       "r_c": {
+           "status": ["leader"]
+       }
     }
 ]

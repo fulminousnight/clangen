@@ -2,7 +2,22 @@
     {
         "id": "gen_romance_med_neg1",
         "strings": [
-			"m_c found {PRONOUN/m_c/poss} interest in r_c dwindled the moment they were in close quarters."
+			"m_c found {PRONOUN/m_c/poss} interest in r_c dwindled the moment they were in close quarters.",
+             "m_c decides that after getting a good sniff of r_c, perhaps {PRONOUN/r_c/subject} aren't the potential mate {PRONOUN/m_c/subject} {VERB/were/was} looking for."
         ]
+    },
+    {
+        "id": "gen_romance_med_neg2",
+        "strings": [
+			"r_c and m_c got into a tiff when m_c joined the clan and made certain assumptions about r_c's feelings for {PRONOUN/r_c/object}."
+        ],
+        "relationship_changes": [
+            {
+                "cats_from": ["r_c"],
+                "cats_to": ["m_c"],
+                "mutual": false,
+                "values": ["romance"],
+                "amount": -7
+            }]
     }
 ]
