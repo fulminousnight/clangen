@@ -4,5 +4,19 @@
         "strings": [
 			"m_c had been copying r_c's every move since {PRONOUN/m_c/subject} joined the Clan."
         ]
+    },
+    {
+        "id": "gen_respect_med_pos1",
+        "strings": [
+            "m_c knows r_c's status is deserving of {PRONOUN/m_c/poss} respect as {PRONOUN/m_c/subject} integrate into Clan life."
+        ],
+        "involved_cats": {
+            "m_c": {
+                "status": ["-deputy", "-leader"]
+            },
+            "r_c": {
+                "status": ["leader", "deputy", "medicine cat"]
+            }
+        }
     }
 ]

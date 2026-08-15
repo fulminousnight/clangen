@@ -12,5 +12,12 @@
                 "values": ["respect"],
                 "amount": 5
             }]
+    },
+     {
+        "id": "gen_respect_low_pos2",
+        "strings": [
+            "m_c noticed upon arriving to c_n that r_c was the sort of cat that looked after others.",
+            "m_c noticed upon joining that it seemed like r_c's opinions carried weight with others in the Clan."
+        ]
     }
 ]

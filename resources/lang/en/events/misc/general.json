@@ -11471,7 +11471,7 @@
             "accessory"
         ],
         "frequency": 1,
-        "event_text": "During a meeting, a o_c_n warrior pushes acc_plural roughly into m_c's pelt with a derisive sniff and a snide remark... but everyone watching knows well that the gesture is genuine. It does suit m_c, after all.",
+        "event_text": "During a Gathering, a o_c_n warrior pushes acc_plural roughly into m_c's pelt with a derisive sniff and a snide remark... but everyone watching knows well that the gesture is genuine. It does suit m_c, after all.",
         "m_c": {
             "status": [
                 "any"

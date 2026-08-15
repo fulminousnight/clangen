@@ -2,7 +2,23 @@
     {
         "id": "gen_respect_med_pos1",
         "strings": [
-			"m_c seemed to admire r_c from the moment they met."
+			"m_c seemed to admire r_c from the moment they met.",
+            "m_c could tell that r_c was worthy of respect as soon as {PRONOUN/m_c/subject} walked into camp.",
+            "m_c noticed how honourable r_c seemed upon meeting {PRONOUN/r_c/object}."
         ]
+    },
+    {
+        "id": "gen_respect_med_pos1",
+        "strings": [
+            "m_c wants to be just like r_c when they are older."
+        ],
+        "involved_cats": {
+            "m_c": {
+                "age": ["kitten", "adolescent"]
+            },
+            "r_c": {
+                "age": ["-newborn", "-kitten", "-adolescent"]
+            }
+        }
     }
 ]
