@@ -185,6 +185,10 @@
             "one": "ginger",
             "many": "dark ginger"
         },
+        "BLOSSOM": {
+            "one": "cream",
+            "many": "cream"
+        },
         "SILVERORANGE": {
             "one": "silver orange",
             "many": "silver orange"
