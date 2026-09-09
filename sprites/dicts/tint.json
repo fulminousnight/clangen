@@ -101,7 +101,7 @@
     "lilac": ["yellow", "purple", "black", "dilute", "cooldilute", "earthydilute", "willow", "bluegray", "lilac", "tan", "rosy", "lightpink", "bluesky", "pinkgray", "darkpurple", "patina"],
     "brown": ["yellow", "purple", "black", "dilute", "cooldilute", "pinkdilute", "earthydilute", "night", "gloaming", "quartz", "willow", "lilac", "tan", "lightpink", "darkpurple", "patina"],
     "darkbrown": ["yellow", "purple", "black", "dilute", "cooldilute", "pinkdilute", "earthydilute", "gloaming", "quartz", "willow", "lilac", "tan", "lightpink", "darkpurple", "patina"],
-    "rust": ["yellow", "purple", "black", "dilute", "cooldilute", "pinkdilute", "earthydilute", "gloaming", "quartz", "night", "willow", "lilac", "tan", "lightpink", "darkpurple",]
+    "rust": ["yellow", "purple", "black", "dilute", "cooldilute", "pinkdilute", "earthydilute", "gloaming", "quartz", "night", "willow", "lilac", "tan", "lightpink", "darkpurple"]
   },
   "tint_colours":
   {
